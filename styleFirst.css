@@ -1,0 +1,41 @@
+*{
+	box-sizing:border-box;
+}
+body
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+.container
+{
+	border-radius:5px;
+	margin-bottom:20px;
+	box-shadow:	rgb(179, 198, 255);
+}
+	.project-form
+	{
+		padding: 30px 40px;
+	}
+	.form-control
+	{
+		margin-bottom:20px;
+		padding-bottom:20px;
+		position:relative;
+	}
+	.form-control label
+	{
+		display:block;
+		margin-bottom:5px;
+		font-size:18px;
+	}
+	.form-control input
+	{
+		display:block;
+		//border:2px solid;
+		width:100%;
+		font-size:12px;
+		padding-bottom:10px;
+	}
